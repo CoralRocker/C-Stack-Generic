@@ -11,7 +11,7 @@
 # Modifier Methods
 |Method|Usage|
 |:-:|:-|
-|pushStack(Stack *s, int val)| pushStack(s, num) where s is the Stack object and num is the value to input. Adds value to top of stack, updating both empty and _size variables.|
+|pushStack(Stack *s, void* val)| pushStack(s, num) where s is the Stack object and num is the value to input. Adds value to top of stack, updating both empty and _size variables.|
 |popStack(Stack *s)|popStack(s) where s is the Stack object. Removes the element last added. Updates _size and empty accordingly.|
 
 # Initializing a Stack
